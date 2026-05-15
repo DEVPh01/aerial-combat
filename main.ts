@@ -17,6 +17,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, mySprite, 100, 0)
+    projectile.startEffect(effects.coolRadial)
     music.play(music.melodyPlayable(music.pewPew), music.PlaybackMode.UntilDone)
 })
 info.onScore(100, function () {
