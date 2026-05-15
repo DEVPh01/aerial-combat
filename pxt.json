@@ -1,5 +1,6 @@
 {
     "name": "aerial combat",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "device": "*"
