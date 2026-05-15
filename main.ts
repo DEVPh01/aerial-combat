@@ -33,6 +33,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 let mySprite2: Sprite = null
 let projectile: Sprite = null
 let mySprite: Sprite = null
+game.splash("Aerial Combat", "Criado por: DEVPh_")
 mySprite = sprites.create(img`
     ..ccc.........ffffff....
     ..fecc.......fcc44ff....
